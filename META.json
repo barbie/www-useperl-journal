@@ -7,10 +7,8 @@
     ],
     "release_status" : "stable",
     "dynamic_config" : 0,
-    "generated_by" : "Hand 1.0",
-    "license" : [
-        "artistic_2"
-    ],
+    "generated_by": "The Hand of Barbie 1.0",
+    "license": [ "artistic_2" ],
     "meta-spec" : {
         "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
         "version" : "2"
@@ -52,6 +50,7 @@
             }
         }
     },
+    
     "provides" : {
         "WWW::UsePerl::Journal" : {
             "file" : "lib/WWW/UsePerl/Journal.pm",
@@ -60,6 +59,16 @@
         "WWW::UsePerl::Journal::Entry" : {
             "file" : "lib/WWW/UsePerl/Journal/Entry.pm",
             "version" : "0.25"
+        }
+    },
+
+    "resources": {
+        "license": [ "http://www.perlfoundation.org/artistic_license_2_0" ],
+        "bugtracker": { "web": "http://rt.cpan.org/Public/Dist/Display.html?Name=WWW-UsePerl-Journal" },
+        "repository": {
+            "url": "git://github.com/barbie/www-useperl-journal.git",
+            "web": "http://github.com/barbie/www-useperl-journal",
+            "type": "git"
         }
     }
 }

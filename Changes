@@ -1,6 +1,9 @@
 Changes for WWW-UsePerl-Journal
 ===============================
 
+        - added resources to META files.
+        - created GitHub repositories.
+
 0.25	2012-08-31
         - created connected() method.
         - removed PingTest.pm test library.
